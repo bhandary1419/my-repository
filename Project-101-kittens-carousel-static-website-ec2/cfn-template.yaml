@@ -20,9 +20,9 @@ Resources:
   WebServerHost:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0022f774911c1d690
+      ImageId: ami-0b5eea76982371e91
       InstanceType: t2.micro
-      KeyName: windows_keypair
+      KeyName: dell_key
       SecurityGroupIds:
         -  !Ref WebServerSecurityGroup
       Tags:
